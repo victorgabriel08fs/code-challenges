@@ -7,7 +7,7 @@ interface ChallengeSideBarProps {
 
 export const ChallengeSideBarContainer = styled.aside<ChallengeSideBarProps>`
 height: 100%;
-width: 3rem;
+width: 5rem;
 transition: 0.4s;
 overflow: hidden;
 display: flex;
@@ -20,12 +20,14 @@ position: relative;
 button{
     background: ${({ theme }) => theme["shape-light"]};
     border: none;
+    width: 100%;
     color:${({ theme }) => theme.title};
     font-family: "Fira Code";
     padding: 0.3rem 0.5rem;
     transition: 0.4s;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
 
     &:hover{
@@ -38,7 +40,7 @@ button{
 >button{
     background: none;
     color: ${({ theme }) => theme.title};
-    font-size: 1.2rem;
+    font-size: 2.2rem;
 
     &:hover{
         background: none;

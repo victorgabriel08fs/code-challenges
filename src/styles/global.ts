@@ -19,10 +19,16 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
 
   }
+  ::selection{
+    color: black;
+    background: ${({ theme }) => theme.primary};
+  }
 
   button {
     cursor: pointer;
   }
+
+  
 
   a {
     color: inherit;

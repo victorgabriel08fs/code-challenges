@@ -9,6 +9,7 @@ border:2px solid ${({ theme }) => theme.text};
 transition: .4s;
 position: relative;
 overflow: hidden;
+margin-right: 3rem;
 
 &:hover{
     border-color: ${({ theme }) => theme.primary};
@@ -21,6 +22,7 @@ box-shadow: 0 10px 30px -10px ${({ theme }) => theme.shadow};
 display: flex;
 flex-direction: column;
 gap:1rem;
+margin-right: 1rem;
 padding: 1rem 0;
 border-radius: 0.3rem;
 `;

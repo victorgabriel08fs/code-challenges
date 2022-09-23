@@ -11,5 +11,6 @@ justify-content: space-between;
     font-family: "Fira Code";
     font-weight:400;
     font-size: 1.5rem;
+    margin-left: 3rem;
 }
 `;
